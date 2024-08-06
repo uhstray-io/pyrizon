@@ -3,13 +3,26 @@ import sklearn.feature_extraction.text as sk_text
 
 filepaths = list()
 
-def ingest_csv ( filepaths ):
+
+def ingest_csv(filepaths):
     csv_frame = pd.DataFrame()
-    tfidf_frame = pd.DataFrame()
     for filename in filepaths:
-        csv_frame.columns = pd.read_csv(filename)
+        csv_frame = pd.read_csv(filename)
+        
         print("Your column headers are " + csv_frame.columns)
-        tfidf_frame = sk_text.TfidfTransformer(csv_frame,use_idf=True,smooth_idf=True,norm='l2')
-        print("Your TF-IDF matrix is " + tfidf_frame)
-        csv_frame.append(pd.read_csv(filename,engine='pyarrow'))
+        print("Your data types are " + csv_frame.dtypes)
+        
+        csv_frame.append(pd.read_csv(filename, engine='pyarrow'))
     return csv_frame
+
+def ingest_json(filepaths):
+    json_frame = pd.DataFrame()
+    for filename in filepaths:
+        json_frame  = pd.read_json(filename)
+        
+        print("Your column headers are " + json_frame.columns)
+        print("Your data types are " + json_frame.dtypes)
+        
+    return json_frame
+        
+        

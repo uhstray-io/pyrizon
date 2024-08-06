@@ -9,11 +9,48 @@ Python driven data assessment using pandas and flet
 
 ![File Workflow Architecture](.images/file_workflow.png)
 
-
 ## Installation
 
+### Dependencies
+
 ```bash
+pip install mysql.connector
+pip install pandas
+pip install scikit-learn
 ```
+
+Generating requirements.txt
+
+```bash
+pip install pipreqs
+pipreqs ~/github/pyrizon
+```
+
+#### Libraries
+
+```python
+import pandas as pd
+#TFIDF Feature Extraction Scikit-learn
+import sklearn.feature_extraction.text as sk_text
+import mysql.connector
+```
+
+## Sample Data Sources
+
+- [Kaggle](https://www.kaggle.com/datasets)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
+- [Google Dataset Search](https://datasetsearch.research.google.com/)
+- [Data.gov](https://www.data.gov/)
+
+### Solar Flares
+
+Data (CSV) : https://www.kaggle.com/datasets/khsamaha/solar-flares-rhessi
+License (CC0) 1.0 :  https://creativecommons.org/publicdomain/zero/1.0/
+
+### Adult Census Data
+
+Data : Becker,Barry and Kohavi,Ronny. (1996). Adult. UCI Machine Learning Repository. https://doi.org/10.24432/C5XW20.
+License (Creative Commons Attribution 4.0) : https://creativecommons.org/licenses/by/4.0/legalcode
 
 ### Reference
 
