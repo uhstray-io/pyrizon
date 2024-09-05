@@ -9,6 +9,10 @@ Python driven data assessment using pandas and flet
 
 ![File Workflow Architecture](.images/file_workflow.png)
 
+### Excalidraw Design
+
+![Excalidraw Design](.images/ml_pipelines.excalidraw.svg)
+
 ## Installation
 
 ### Dependencies
