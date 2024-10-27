@@ -15,6 +15,9 @@ Python driven data assessment using pandas and flet
 
 ## Installation
 
+### Package manager
+https://github.com/astral-sh/uv
+
 ### Dependencies
 
 ```bash
