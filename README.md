@@ -18,16 +18,8 @@ Python driven data assessment using pandas and flet
 ### Dependencies
 
 ```bash
-pip install mysql.connector
-pip install pandas
-pip install scikit-learn
-```
-
-Generating requirements.txt
-
-```bash
-pip install pipreqs
-pipreqs ~/github/pyrizon
+pip install uv
+uv sync
 ```
 
 #### Libraries
@@ -37,6 +29,7 @@ import pandas as pd
 #TFIDF Feature Extraction Scikit-learn
 import sklearn.feature_extraction.text as sk_text
 import mysql.connector
+import dask
 ```
 
 ## Sample Data Sources
