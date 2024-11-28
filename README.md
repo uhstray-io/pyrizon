@@ -1,5 +1,22 @@
+<!-- omit in toc -->
 # pyrizon
 Python driven data assessment using pandas and flet
+
+<!-- omit in toc -->
+## Table of Contents
+
+- [Platform MVP Architecture](#platform-mvp-architecture)
+  - [File Workflow Architecture](#file-workflow-architecture)
+  - [Excalidraw Design](#excalidraw-design)
+- [Installation](#installation)
+  - [Package manager](#package-manager)
+  - [Dependencies](#dependencies)
+    - [Libraries](#libraries)
+- [Sample Data Sources](#sample-data-sources)
+  - [Solar Flares](#solar-flares)
+  - [Adult Census Data](#adult-census-data)
+  - [EUR USD 2002-2020 Forex Data](#eur-usd-2002-2020-forex-data)
+  - [Reference](#reference)
 
 ## Platform MVP Architecture
 
@@ -51,6 +68,11 @@ License (CC0) 1.0 :  https://creativecommons.org/publicdomain/zero/1.0/
 
 Data : Becker,Barry and Kohavi,Ronny. (1996). Adult. UCI Machine Learning Repository. https://doi.org/10.24432/C5XW20.
 License (Creative Commons Attribution 4.0) : https://creativecommons.org/licenses/by/4.0/legalcode
+
+### EUR USD 2002-2020 Forex Data
+
+Data : https://www.kaggle.com/datasets/imetomi/eur-usd-forex-pair-historical-data-2002-2019?select=eurusd_minute.csv
+License (AGPL-3.0): https://www.gnu.org/licenses/agpl-3.0.html
 
 ### Reference
 
