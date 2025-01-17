@@ -22,6 +22,11 @@ Python driven data assessment using pandas and flet
 
 ![Platform MVP Architecture](.images/mvp_architecture.png)
 
+## Contributing Guidelines
+
+- [Review our Code of Conduct](https://www.uhstray.io/en/code-of-conduct)
+- [Check our CONTRIBUTING.MD](./CONTRIBUTING.md)
+
 ### File Workflow Architecture
 
 ![File Workflow Architecture](.images/file_workflow.png)
